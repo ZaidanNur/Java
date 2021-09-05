@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class jumlah_karakter {
     static final int MAX_CHAR = 256;
 
-    static void getOccuringChar(String str) {
+    static void JumlahKarakter(String str) {
 
         // Create an array of size 256
         // i.e. ASCII_SIZE
@@ -31,9 +31,9 @@ public class jumlah_karakter {
 
             if (find == 1)
                 System.out.println(
-                        "Number of Occurrence of "
+                        "Jumlah karakter "
                                 + str.charAt(i)
-                                + " is:" + count[str.charAt(i)]);
+                                + " ada : " + count[str.charAt(i)]);
         }
     }
     public static void main(String[] args){
@@ -42,7 +42,7 @@ public class jumlah_karakter {
         String user_input = sc.nextLine();
         Integer input_lenght = user_input.length();
         System.out.println("Panjang karakter yang di-inputkan :" + input_lenght);
-        getOccuringChar(user_input);
+        JumlahKarakter(user_input);
 
     }
 }

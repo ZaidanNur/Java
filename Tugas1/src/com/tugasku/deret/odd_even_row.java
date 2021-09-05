@@ -12,19 +12,20 @@ public class odd_even_row {
         // Membuat baris bilangan genap sebanyak inputan user
         System.out.print("Baris genap : ");
         for (int count = 1; count <= user_input; count++) {
-            if ((num % 2 == 0) && num != 0) {
+            if ((num % 2 == 0)) {
                 System.out.print(num + " ");
             } else {
                 count--;
             }
             num++;
         }
+
         // Membuat baris bilangan ganjil sebanyak inputan user
         num = 0;
         System.out.println();
         System.out.print("Baris ganjil : ");
         for (int count1 = 1; count1 <= user_input; count1++) {
-            if ((num % 2 != 0) && num != 0) {
+            if ((num % 2 != 0) ) {
                 System.out.print(num + " ");
             } else {
                 count1--;
