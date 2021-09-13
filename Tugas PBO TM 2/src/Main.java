@@ -8,5 +8,6 @@ public class Main {
         System.out.println(warna1);
         mobil1.melaju();
 
+        Ikan lele = new Ikan("Lele","Air tawar","Sungai, danau","Hitam");
     }
 }
